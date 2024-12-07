@@ -1,6 +1,6 @@
 /*
-4.2.3 T1 reverse array
-要求使用 malloc 函数
+P176 4.2.3 T1 reverse array
+要求使用 malloc 函数生成数组
 
 */
 
