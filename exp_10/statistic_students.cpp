@@ -2,7 +2,7 @@
 #include <errno.h>
 #include <string.h>
 #include <malloc.h>
-#define DATA_FILE_NAME "/home/qinllgroup/hongxiangyu/Notes/C_homework/exp_10/students.txt"
+#define DATA_FILE_NAME "./C_homework/exp_10/txt/students.txt"
 
 typedef struct student
 {

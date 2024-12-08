@@ -3,7 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 
-#define DATA_FILE_NAME "/home/qinllgroup/hongxiangyu/Notes/C_homework/exp_10/count.txt"
+#define DATA_FILE_NAME "./C_homework/exp_10/txt/count.txt"
 #define MAX_WORD_LENGTH 100
 #define TOP_N 10
 // 定义链表节点
