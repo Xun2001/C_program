@@ -1,4 +1,7 @@
 #include <stdio.h>
+/*
+4.1.3 1 用指针完成数组元素的交换
+*/
 
 // 交换两个数
 void swap(int *a, int *b) {
@@ -14,7 +17,7 @@ int main() {
 
     // 找到最小值并与第一个元素交换
     p = arr;
-    int *min_p = p;
+    int *min_p = p;//定义min_p用于存储最小值的地址
     for (i = 0; i < 10; i++) {
         if (*p < *min_p) {
             min_p = p;
