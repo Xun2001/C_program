@@ -22,8 +22,6 @@ int main()
     // create_matrix(a);
     float transport_a[2][2]={0};
     float inverse_a[2][2]={0};
-    
-    
     transport(a,transport_a);
     inverse(a,inverse_a);
     add(*transport_a,*inverse_a,a);
